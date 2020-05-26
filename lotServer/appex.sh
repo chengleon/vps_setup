@@ -109,8 +109,8 @@ MAC=$(ifconfig "$Eth" |awk '/HWaddr/{ print $5 }')
 [ -z "$MAC" ] && Uninstall && echo "Not Found MAC address! " && exit 1
 #wget --no-check-certificate -q -O "/appex/etc/apx.lic" "https://moeclub.azurewebsites.net/lic?mac=$MAC"
 cd /tmp/appex/apxlic
-# ver=0 for 3.11.20.10
-# ver=1 for newer version
+# 0 for old version
+# 1 for version > 3.11.20.10
 php keygen.php $MAC 0
 cp out.lic /appex/etc/apx.lic
 cd -
