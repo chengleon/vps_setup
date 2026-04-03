@@ -1,4 +1,4 @@
-#EXTM3U url-tvg="https://epg.deny.vip/sh/tel-epg.xml, https://tv.mxdyeah.top/epgphp/t.xml, https://epg.112114.xyz/pp.xml, http://e.erw.cc/e.xml, https://epg.136605.xyz/3days.xml" x-tvg-url="https://epg.deny.vip/sh/tel-epg.xml, https://tv.mxdyeah.top/epgphp/t.xml, https://epg.112114.xyz/pp.xml, http://e.erw.cc/e.xml, https://epg.136605.xyz/3days.xml"
+#EXTM3U url-tvg="https://epg.deny.vip/sh/tel-epg.xml" x-tvg-url="https://epg.deny.vip/sh/tel-epg.xml"
 
 #EXTINF:-1 tvg-id="124" tvg-name="CCTV-4K" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV4K.png" group-title="央视",CCTV-4K超高清
 http://192.168.2.1:9085/rtp/233.18.204.188:5140?fcc=124.75.25.216:7777
